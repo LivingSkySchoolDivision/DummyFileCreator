@@ -40,9 +40,7 @@ namespace CreateDummyFile
             {
                 // Get the file size from the slider
                 long newFileSize = DoubleToLongInt(slider.Value) * 1024;
-
-                MessageBox.Show("New file size: (bytes) " + newFileSize.ToString());
-
+                
                 if (newFileSize >= 0)
                 {
                     try
